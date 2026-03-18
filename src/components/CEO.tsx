@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Linkedin, Briefcase, Award, Globe } from "lucide-react";
+import ceoPhoto from "@/assets/ceo-photo.png";
 
 const stats = [
   { value: "+20", label: "Años de experiencia", icon: Briefcase },
