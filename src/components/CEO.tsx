@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Linkedin, Briefcase, Award, Globe } from "lucide-react";
+import ceoPhoto from "@/assets/ceo-photo.png";
 
 const stats = [
   { value: "+20", label: "Años de experiencia", icon: Briefcase },
@@ -81,8 +82,8 @@ const CEO = () => {
             className="lg:col-span-2"
           >
             <div className="bg-primary rounded-lg p-10 text-center">
-              <div className="w-32 h-32 bg-primary-foreground/10 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-5xl font-bold text-primary-foreground font-['Playfair_Display']">AS</span>
+              <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden">
+                <img src={ceoPhoto} alt="Alejandro Saravia" className="w-full h-full object-cover" />
               </div>
               <h4 className="text-xl font-bold text-primary-foreground mb-2">Alejandro Saravia</h4>
               <p className="text-primary-foreground/70 text-sm mb-6">Founder & CEO</p>
