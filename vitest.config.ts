@@ -12,7 +12,6 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      // Esto asegura que Vitest entienda el símbolo "@" igual que Vite
       "@": path.resolve(__dirname, "./src"),
     },
   },
